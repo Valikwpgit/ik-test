@@ -1,0 +1,24 @@
+# Use the official MySQL image version 8.1
+FROM mysql:8.1
+
+# Set necessary additional settings and change access rights
+RUN chown -R mysql:mysql /docker-entrypoint-initdb.d
+
+# Copy files from the build context to the container
+VOLUME /var/lib/mysql
+
+COPY db/* /docker-entrypoint-initdb.d/1_dump.sql
+
+# Copy and grant permissions to the script
+COPY _docker/app/create_user_script.sh /docker-entrypoint-initdb.d/2_create_user_script.sh
+RUN chmod +x /docker-entrypoint-initdb.d/2_create_user_script.sh
+
+# Set environment variables for MySQL
+ENV MYSQL_DATABASE ${MYSQL_DATABASE}
+ENV MYSQL_ROOT_PASSWORD ${MYSQL_ROOT_PASSWORD}
+ENV MYSQL_USER ${MYSQL_USER}
+ENV MYSQL_PASSWORD ${MYSQL_ROOT_PASSWORD}
+ENV MYSQL_AUTHENTICATION_PLUGIN caching_sha2_password
+ENV WORDPRESS_LOGIN ${WORDPRESS_LOGIN}
+ENV WORDPRESS_PASSWORD ${WORDPRESS_PASSWORD}
+ENV WORDPRESS_MAIL ${WORDPRESS_MAIL}
