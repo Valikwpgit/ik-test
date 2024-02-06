@@ -4613,3 +4613,39 @@
 2024/02/04 14:05:24 [notice] 1#1: start worker process 20
 2024/02/04 14:05:24 [notice] 1#1: start worker process 21
 2024/02/04 14:05:24 [notice] 1#1: start worker process 22
+2024/02/04 16:36:13 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/02/04 16:36:13 [notice] 19#19: gracefully shutting down
+2024/02/04 16:36:13 [notice] 19#19: exiting
+2024/02/04 16:36:13 [notice] 21#21: gracefully shutting down
+2024/02/04 16:36:13 [notice] 22#22: gracefully shutting down
+2024/02/04 16:36:13 [notice] 22#22: exiting
+2024/02/04 16:36:13 [notice] 20#20: gracefully shutting down
+2024/02/04 16:36:13 [notice] 19#19: exit
+2024/02/04 16:36:13 [notice] 21#21: exiting
+2024/02/04 16:36:13 [notice] 22#22: exit
+2024/02/04 16:36:13 [notice] 21#21: exit
+2024/02/04 16:36:13 [notice] 20#20: exiting
+2024/02/04 16:36:13 [notice] 20#20: exit
+2024/02/04 16:36:13 [notice] 1#1: signal 17 (SIGCHLD) received from 19
+2024/02/04 16:36:13 [notice] 1#1: worker process 19 exited with code 0
+2024/02/04 16:36:13 [notice] 1#1: worker process 21 exited with code 0
+2024/02/04 16:36:13 [notice] 1#1: worker process 20 exited with code 0
+2024/02/04 16:36:13 [notice] 1#1: worker process 22 exited with code 0
+2024/02/04 16:36:13 [notice] 1#1: exit
+2024/02/05 07:47:10 [notice] 1#1: using the "epoll" event method
+2024/02/05 07:47:10 [notice] 1#1: nginx/1.25.3
+2024/02/05 07:47:10 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/02/05 07:47:10 [notice] 1#1: OS: Linux 6.4.16-linuxkit
+2024/02/05 07:47:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/02/05 07:47:10 [notice] 1#1: start worker processes
+2024/02/05 07:47:10 [notice] 1#1: start worker process 20
+2024/02/05 07:47:10 [notice] 1#1: start worker process 21
+2024/02/05 07:47:10 [notice] 1#1: start worker process 22
+2024/02/05 07:47:10 [notice] 1#1: start worker process 23
+2024/02/05 07:47:12 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-login.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost:8080"
+2024/02/05 07:47:14 [error] 21#21: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-login.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost:8080"
+2024/02/05 07:47:17 [error] 21#21: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-login.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost:8080"
+2024/02/05 07:47:18 [error] 21#21: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-login.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost:8080"
+2024/02/05 07:47:18 [error] 21#21: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-login.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost:8080"
+2024/02/05 07:47:19 [error] 21#21: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-login.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost:8080"
+2024/02/05 07:47:19 [error] 21#21: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-login.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost:8080"

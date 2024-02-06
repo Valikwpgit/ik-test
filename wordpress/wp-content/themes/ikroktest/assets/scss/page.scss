@@ -1,0 +1,110 @@
+.main {
+  height: calc(100vh - 3.29919em);
+  .content {
+    background-color: #FEF9F4;
+    height: calc(100vh - 3.84026em);
+    max-height: 21.987em;
+    padding: 1.35716em;
+    .breadcrumbs {
+      color: #939598;
+      text-transform: uppercase;
+      font-size: 0.67884em;
+      font-weight: 600;
+      margin-bottom: 0.33961em;
+      a {
+        color: #939598;
+        position: relative;
+        margin-right: 0.6875em;
+        margin-left: 0.6875em;
+        &:first-child {
+          margin-left: 0;
+        }
+        &:after {
+          position: absolute;
+          content: "";
+          background-image: url(../../assets/icons/arrow_brand.svg);
+          width: 0.375em;
+          height: 1.0em;
+          top: calc(50% - 0.50em);
+          right: -0.9em;
+        }
+      }
+      span {
+        margin-left: 0.6875em;
+      }
+    }
+    .slider {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      flex: 1;
+      margin-top: 0.5088em;
+      &-slide {
+        width: 100%;
+.block-1 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
+        &-block {
+          display: flex;
+          flex-direction: column;
+
+          margin-top: 0;
+          max-height: 22em;
+          padding-right: 0.6791em;
+          &:last-child {
+            padding-right:0;
+          }
+          &-item {
+            flex-grow: 1;
+            margin-bottom: 0.3395em;
+            margin-top: 0.3395em;
+            &:last-child {
+              margin-bottom: 0;
+            }
+            &-left {
+              border: 1px solid #E5E8E9;
+              background-color: #fff;
+              margin-right: 0.3395em;
+              min-width: 2.88615em;
+              max-width: 2.88615em;
+              padding: 0.38199em;
+              img {
+                max-width: 100%;
+              }
+            }
+            &-right {
+              margin-left: 0.3395em;
+              span {
+                font-weight: 900;
+                font-size: 0.5942em;
+                line-height: 1.0186em;
+              }
+              p {
+                font-size: 0.55176em;
+                margin: 0;
+                line-height: 1.54em;
+              }
+            }
+          }
+        }
+        &-img {
+          margin-right: 0.6791em;
+          margin-left: 0.6791em;
+          width: 20em;
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+

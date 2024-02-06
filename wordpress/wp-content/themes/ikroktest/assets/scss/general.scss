@@ -1,0 +1,69 @@
+body {
+  font-family: $font;
+  font-size: $base-font-size;
+  padding: 0;
+  margin: 0;
+
+  @for $screen-height from 700 through 300 {
+    @media screen and (max-height: #{$screen-height}px) {
+      font-size: calc($base-font-size - #{(700 - $screen-height) * 0.0235192}px);
+    }
+  }
+
+  @for $screen-width from 1280 through 475 {
+    @media screen and (max-width: #{$screen-width}px) {
+        font-size: calc($base-font-size - #{(1280 - $screen-width) * 0.0235192}px);
+    }
+  }
+
+
+
+  .container {
+    max-width: 95%;
+    width: 171.43vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+a {
+  text-decoration: none;
+}
+h1 {
+  color: #F58220;
+  font-weight: 600;
+  font-size: 1.52696em;
+  line-height: 2.03624em;
+  margin: 0;
+  padding-top: 0.33961em;
+  padding-bottom: 0.5088em;
+}
+  h2 {
+    color: #4A4A4A;
+    margin: 0;
+    font-weight: 600;
+    font-size: 0.7635em;
+    line-height: 1.018em;
+    padding-bottom: 0.3395em;
+  }
+//flex
+  .flex {
+    display: flex;
+  }
+
+  .justify-content {
+
+    &-space-between {
+
+      justify-content: space-between;
+    }
+
+    &-center {
+      justify-content: center;
+    }
+  }
+
+  .align-items {
+    &-center {
+      align-items: center;
+    }
+  }
+}
