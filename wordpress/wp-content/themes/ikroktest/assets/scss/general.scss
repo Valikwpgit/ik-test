@@ -1,28 +1,44 @@
 body {
+  font-weight: 500;
   font-family: $font;
   font-size: $base-font-size;
   padding: 0;
   margin: 0;
 
-  @for $screen-height from 700 through 300 {
-    @media screen and (max-height: #{$screen-height}px) {
-      font-size: calc($base-font-size - #{(700 - $screen-height) * 0.0235192}px);
+
+
+
+@for $i from 1280 through 2560 {
+  $screen-width: 2560 - ($i - 1280) * 10;
+
+    @media screen and (max-width: #{$screen-width}px) {
+      font-size: calc($base-font-size - #{(1280 - $screen-width) * 0.0135192}px);
+
     }
   }
 
-  @for $screen-width from 1280 through 475 {
+@for $i from 475 through 1280 {
+  $screen-width: 1280 - ($i - 475) * 10;
+
     @media screen and (max-width: #{$screen-width}px) {
         font-size: calc($base-font-size - #{(1280 - $screen-width) * 0.0235192}px);
+
     }
   }
-
+  @for $i from 300 through 670 {
+    $screen-height: 670 - ($i - 300) * 10;
+    @media screen and (max-height: #{$screen-height}px) {
+      font-size: calc($base-font-size - 5px - #{(670 - $screen-height) * 0.0235192}px) !important;
+    }
+  }
 
 
   .container {
-    max-width: 95%;
-    width: 171.43vh;
+    max-width: 93.8%;
+    width: 65em;
     margin-left: auto;
     margin-right: auto;
+    height: 100%;
   }
 a {
   text-decoration: none;
@@ -31,17 +47,17 @@ h1 {
   color: #F58220;
   font-weight: 600;
   font-size: 1.52696em;
-  line-height: 2.03624em;
+  line-height: 1.3333333em;
   margin: 0;
   padding-top: 0.33961em;
-  padding-bottom: 0.5088em;
+  padding-bottom: 0.3088em;
 }
   h2 {
     color: #4A4A4A;
     margin: 0;
     font-weight: 600;
     font-size: 0.7635em;
-    line-height: 1.018em;
+    line-height: 1.33333333333em;
     padding-bottom: 0.3395em;
   }
 //flex

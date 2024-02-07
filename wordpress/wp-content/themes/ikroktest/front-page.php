@@ -4,7 +4,7 @@
 <?php get_header(); ?>
     <main>
         <div class="main flex align-items-center">
-            <div class="container">
+            <div class="container flex align-items-center">
                 <div class="content">
                     <div class="breadcrumbs">
                         <a href="#">HOME</a>
@@ -86,10 +86,19 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="slider-nav">
 
-                        </div>
                     </div>
+                    <ul class="navigation flex justify-content-center">
+                        <li><a href="#" class="prev flex justify-content-center align-items-center">Prev</a> </li><li><a href="#">01</a> </li><li><a href="#" class="active">02</a> </li><li><a href="#">03</a> </li>
+                        <li><a href="#">04</a> </li>
+                        <li><a href="#">05</a> </li>
+                        <li><a href="#">06</a> </li>
+                        <li><a href="#">07</a> </li>
+                        <li><a href="#">08</a> </li>
+                        <li><a href="#" class="dotted">...</a> </li>
+                        <li><a href="#">100</a> </li>
+                        <li><a href="#" class="next">Prev</a> </li>
+                    </ul>
                 </div>
             </div>
         </div>
