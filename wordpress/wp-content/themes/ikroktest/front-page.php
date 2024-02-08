@@ -17,7 +17,7 @@
                             <div class="slider-slide-block block-1">
                                 <h2>Code Documentation</h2>
                                 <div class="slider-slide-block-item flex">
-                                    <div class="slider-slide-block-item-left flex align-items-center">
+                                    <div class="slider-slide-block-item-left flex align-items-center justify-content-center">
 
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/surface1.png" alt="" />
                                     </div>
@@ -29,7 +29,7 @@
                                     </div>
                                 </div>
                                 <div class="slider-slide-block-item flex">
-                                    <div class="slider-slide-block-item-left flex align-items-center">
+                                    <div class="slider-slide-block-item-left flex align-items-center justify-content-center">
 
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tabnine.png" alt="" />
                                     </div>
@@ -45,7 +45,7 @@
                             <div class="slider-slide-block">
                                 <h2>Optimization and Refactoring of the Code Fragments</h2>
                                 <div class="slider-slide-block-item flex">
-                                    <div class="slider-slide-block-item-left flex align-items-center">
+                                    <div class="slider-slide-block-item-left flex align-items-center justify-content-center">
 
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/chatgpt.png" alt="" />
                                     </div>
@@ -55,7 +55,7 @@
                                     </div>
                                 </div>
                                 <div class="slider-slide-block-item flex">
-                                    <div class="slider-slide-block-item-left flex align-items-center">
+                                    <div class="slider-slide-block-item-left flex align-items-center justify-content-center">
 
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/deepcode.png" alt="" />
                                     </div>
@@ -65,7 +65,7 @@
                                     </div>
                                 </div>
                                 <div class="slider-slide-block-item flex">
-                                    <div class="slider-slide-block-item-left flex align-items-center">
+                                    <div class="slider-slide-block-item-left flex align-items-center justify-content-center">
 
                                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/codota.png" alt="" />
                                     </div>
@@ -97,7 +97,7 @@
                         <li><a href="#">08</a> </li>
                         <li><a href="#" class="dotted">...</a> </li>
                         <li><a href="#">100</a> </li>
-                        <li><a href="#" class="next">Prev</a> </li>
+                        <li><a href="#" class="next flex justify-content-center align-items-center">Next</a> </li>
                     </ul>
                 </div>
             </div>

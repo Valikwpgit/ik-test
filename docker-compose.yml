@@ -9,6 +9,9 @@ services:
         ports:
             - "8080:80"
         container_name: server_wp
+        dns:
+            - 8.8.8.8
+            - 8.8.4.4
         depends_on:
             - wordpress
     wordpress:

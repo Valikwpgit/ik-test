@@ -40,6 +40,7 @@ header {
       position: absolute;
       content: "";
       background-image: url(../../assets/icons/arrow.svg);
+      background-repeat: no-repeat;
       width: 0.643em;
       height: 0.357em;
       top: calc(50% - 0.16em);
@@ -55,6 +56,7 @@ header {
   {
     background-image: url(../../assets/icons/button.svg);
     background-repeat: no-repeat;
+    background-size: cover;
     width: 9.93em;
     height: 2.858em;
     color: #fff;

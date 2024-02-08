@@ -5,14 +5,13 @@
 //@ini_set('session.use_only_cookies', true);
 //END Really Simple SSL cookie settings
 //Begin Really Simple SSL Server variable fix
-   $_SERVER["HTTPS"] = "off";
-//END Really Simple SSL 
-define('FORCE_SSL_ADMIN', false);
+//$_SERVER["HTTPS"] = "off";
+//END Really Simple SSL
+//define('FORCE_SSL_ADMIN', false);
 $dotenv = parse_ini_file(dirname(__DIR__) . '/.env');
 foreach ($dotenv as $key => $value) {
     putenv("$key=$value");
 }
-
 
 
 /**
@@ -96,7 +95,8 @@ $table_prefix = 'wp_';
  * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
-
+define('WP_HTTP_BLOCK_EXTERNAL', false);
+define('WP_ACCESSIBLE_HOSTS', 'api.wordpress.org,*.github.com');
 /* Add any custom values between this line and the "stop editing" line. */
 
 
@@ -105,7 +105,7 @@ define( 'WP_DEBUG', false );
 
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
-	define( 'ABSPATH', __DIR__ . '/' );
+    define( 'ABSPATH', __DIR__ . '/' );
 }
 
 /** Sets up WordPress vars and included files. */

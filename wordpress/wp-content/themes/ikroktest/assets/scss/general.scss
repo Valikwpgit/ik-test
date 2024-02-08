@@ -12,7 +12,7 @@ body {
   $screen-width: 2560 - ($i - 1280) * 10;
 
     @media screen and (max-width: #{$screen-width}px) {
-      font-size: calc($base-font-size - #{(1280 - $screen-width) * 0.0135192}px);
+      font-size: calc($base-font-size - #{(1280 - $screen-width) * 0.0085192}px);
 
     }
   }
@@ -35,7 +35,7 @@ body {
 
   .container {
     max-width: 93.8%;
-    width: 65em;
+    width: 59em;
     margin-left: auto;
     margin-right: auto;
     height: 100%;
@@ -58,7 +58,7 @@ h1 {
     font-weight: 600;
     font-size: 0.7635em;
     line-height: 1.33333333333em;
-    padding-bottom: 0.3395em;
+    padding-bottom: 0.4395em;
   }
 //flex
   .flex {
@@ -82,4 +82,12 @@ h1 {
       align-items: center;
     }
   }
+  .flex-direction {
+  &-column {
+    flex-direction: column;
+  }
+  }
+  .flex-grow-1 {
+  flex-grow: 1;
+}
 }

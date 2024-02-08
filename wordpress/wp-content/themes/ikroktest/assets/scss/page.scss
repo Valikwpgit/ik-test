@@ -1,8 +1,13 @@
 .main {
-
+  height: calc(100vh - 4.98em);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
   .content {
     background-color: #FEF9F4;
-    max-height: 23.6em;
+    max-height: 21.987em;
     padding: 1.35716em;
     height: 100%;
     width: calc(100% - 2.8em);
@@ -28,9 +33,10 @@
           position: absolute;
           content: "";
           background-image: url(../../assets/icons/arrow_brand.svg);
+          background-size: cover;
           width: 0.375em;
           height: 1.0em;
-          top: calc(50% - 0.7em);
+          top: calc(50% - 0.5em);
           right: -1.25em;
         }
       }
@@ -45,11 +51,11 @@
       flex-direction: row;
       justify-content: space-between;
       width: 100%;
-
+      max-height: 15.2em;
       overflow: hidden;
       flex: 1;
       margin-top: 0.5088em;
-
+      margin-bottom: 0.67909em;
       &-slide {
         width: 100%;
 
@@ -78,7 +84,7 @@
           }
 
           &-item {
-            flex-grow: 1;
+
             margin-bottom: 0.3395em;
             margin-top: 0.3395em;
 
@@ -93,9 +99,14 @@
               min-width: 2.88615em;
               max-width: 2.88615em;
               padding: 0.38199em;
-
+              align-items: center;
               img {
                 max-width: 100%;
+              }
+              &-relative {
+                position: absolute;
+                transform: translate(-5em, -1.6em);
+                width: 7.385em;
               }
             }
 
@@ -106,6 +117,8 @@
                 font-weight: 900;
                 font-size: 0.5942em;
                 line-height: 1.71428em;
+                display: block;
+                margin-bottom: 0.2857em;
               }
 
               p {
@@ -127,6 +140,13 @@
             height: auto;
           }
         }
+
+        &-wrap {
+          height: 100%;
+          &-item {
+            margin-left: 0.6791em;
+          }
+        }
       }
 
     }
@@ -136,18 +156,39 @@
       list-style-type: none;
       margin: 0;
       padding: 0;
+      padding-top: 0.60em;
+      li {
+        display: flex;
+        align-items: center;
+        padding-left: 0.319em;
+        padding-right: 0.319em;
 
-      .prev {
-        background-image: url(../../assets/icons/prev_next.svg);
-        background-repeat: no-repeat;
-        color: #41C7CF;
-        background-color: #fff;
-        font-size: 0.46687718583em;
-        line-height: 1.636363em;
-        width: 5.545em;
+        a {
 
-        height: 2.364em;
+          font-size: 0.59420732742em;
+          color: #939598;
+          line-height: 1.85714em;
 
+        }
+
+        .prev, .next {
+          background-image: url(../../assets/icons/prev_next.svg);
+          background-repeat: no-repeat;
+          color: #41C7CF;
+          background-color: #fff;
+          font-size: 0.4668771858em;
+          line-height: 1.636363em;
+          width: 5.545em;
+          height: 2.364em;
+          background-position: center center;
+          background-size: cover;
+          margin-right: 1.5em;
+          margin-left: 1.7em;
+        }
+
+        .active {
+          font-weight: 600;
+        }
       }
     }
   }

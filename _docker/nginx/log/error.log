@@ -4649,3 +4649,316 @@
 2024/02/05 07:47:18 [error] 21#21: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-login.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost:8080"
 2024/02/05 07:47:19 [error] 21#21: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-login.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost:8080"
 2024/02/05 07:47:19 [error] 21#21: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-login.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost:8080"
+2024/02/07 15:45:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/02/07 15:45:23 [notice] 21#21: gracefully shutting down
+2024/02/07 15:45:23 [notice] 23#23: gracefully shutting down
+2024/02/07 15:45:23 [notice] 22#22: gracefully shutting down
+2024/02/07 15:45:23 [notice] 22#22: exiting
+2024/02/07 15:45:23 [notice] 20#20: gracefully shutting down
+2024/02/07 15:45:23 [notice] 21#21: exiting
+2024/02/07 15:45:23 [notice] 21#21: exit
+2024/02/07 15:45:23 [notice] 23#23: exiting
+2024/02/07 15:45:23 [notice] 23#23: exit
+2024/02/07 15:45:23 [notice] 22#22: exit
+2024/02/07 15:45:23 [notice] 20#20: exiting
+2024/02/07 15:45:23 [notice] 20#20: exit
+2024/02/07 15:45:24 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/02/07 15:45:24 [notice] 1#1: worker process 20 exited with code 0
+2024/02/07 15:45:24 [notice] 1#1: worker process 21 exited with code 0
+2024/02/07 15:45:24 [notice] 1#1: worker process 22 exited with code 0
+2024/02/07 15:45:24 [notice] 1#1: worker process 23 exited with code 0
+2024/02/07 15:45:24 [notice] 1#1: exit
+2024/02/08 06:37:57 [notice] 1#1: using the "epoll" event method
+2024/02/08 06:37:57 [notice] 1#1: nginx/1.25.3
+2024/02/08 06:37:57 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/02/08 06:37:57 [notice] 1#1: OS: Linux 6.4.16-linuxkit
+2024/02/08 06:37:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/02/08 06:37:57 [notice] 1#1: start worker processes
+2024/02/08 06:37:57 [notice] 1#1: start worker process 20
+2024/02/08 06:37:57 [notice] 1#1: start worker process 21
+2024/02/08 06:37:57 [notice] 1#1: start worker process 22
+2024/02/08 06:37:57 [notice] 1#1: start worker process 23
+2024/02/08 14:05:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/02/08 14:05:55 [notice] 20#20: gracefully shutting down
+2024/02/08 14:05:55 [notice] 20#20: exiting
+2024/02/08 14:05:55 [notice] 21#21: gracefully shutting down
+2024/02/08 14:05:55 [notice] 23#23: gracefully shutting down
+2024/02/08 14:05:55 [notice] 23#23: exiting
+2024/02/08 14:05:55 [notice] 22#22: gracefully shutting down
+2024/02/08 14:05:55 [notice] 22#22: exiting
+2024/02/08 14:05:55 [notice] 20#20: exit
+2024/02/08 14:05:55 [notice] 21#21: exiting
+2024/02/08 14:05:55 [notice] 21#21: exit
+2024/02/08 14:05:55 [notice] 23#23: exit
+2024/02/08 14:05:55 [notice] 22#22: exit
+2024/02/08 14:05:55 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/02/08 14:05:55 [notice] 1#1: worker process 20 exited with code 0
+2024/02/08 14:05:55 [notice] 1#1: worker process 21 exited with code 0
+2024/02/08 14:05:55 [notice] 1#1: worker process 22 exited with code 0
+2024/02/08 14:05:55 [notice] 1#1: worker process 23 exited with code 0
+2024/02/08 14:05:55 [notice] 1#1: exit
+2024/02/08 14:06:07 [notice] 1#1: using the "epoll" event method
+2024/02/08 14:06:07 [notice] 1#1: nginx/1.25.3
+2024/02/08 14:06:07 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/02/08 14:06:07 [notice] 1#1: OS: Linux 6.4.16-linuxkit
+2024/02/08 14:06:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/02/08 14:06:07 [notice] 1#1: start worker processes
+2024/02/08 14:06:07 [notice] 1#1: start worker process 20
+2024/02/08 14:06:07 [notice] 1#1: start worker process 21
+2024/02/08 14:06:07 [notice] 1#1: start worker process 22
+2024/02/08 14:06:07 [notice] 1#1: start worker process 23
+2024/02/08 14:13:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/02/08 14:13:24 [notice] 20#20: gracefully shutting down
+2024/02/08 14:13:24 [notice] 20#20: exiting
+2024/02/08 14:13:24 [notice] 23#23: gracefully shutting down
+2024/02/08 14:13:24 [notice] 23#23: exiting
+2024/02/08 14:13:24 [notice] 22#22: gracefully shutting down
+2024/02/08 14:13:24 [notice] 22#22: exiting
+2024/02/08 14:13:24 [notice] 21#21: gracefully shutting down
+2024/02/08 14:13:24 [notice] 21#21: exiting
+2024/02/08 14:13:24 [notice] 20#20: exit
+2024/02/08 14:13:24 [notice] 23#23: exit
+2024/02/08 14:13:24 [notice] 22#22: exit
+2024/02/08 14:13:24 [notice] 21#21: exit
+2024/02/08 14:13:24 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/02/08 14:13:24 [notice] 1#1: worker process 21 exited with code 0
+2024/02/08 14:13:24 [notice] 1#1: worker process 20 exited with code 0
+2024/02/08 14:13:24 [notice] 1#1: worker process 22 exited with code 0
+2024/02/08 14:13:24 [notice] 1#1: worker process 23 exited with code 0
+2024/02/08 14:13:24 [notice] 1#1: exit
+2024/02/08 14:13:42 [notice] 1#1: using the "epoll" event method
+2024/02/08 14:13:42 [notice] 1#1: nginx/1.25.3
+2024/02/08 14:13:42 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/02/08 14:13:42 [notice] 1#1: OS: Linux 6.4.16-linuxkit
+2024/02/08 14:13:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/02/08 14:13:42 [notice] 1#1: start worker processes
+2024/02/08 14:13:42 [notice] 1#1: start worker process 20
+2024/02/08 14:13:42 [notice] 1#1: start worker process 21
+2024/02/08 14:13:42 [notice] 1#1: start worker process 22
+2024/02/08 14:13:42 [notice] 1#1: start worker process 23
+2024/02/08 14:14:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/02/08 14:14:55 [notice] 21#21: gracefully shutting down
+2024/02/08 14:14:55 [notice] 21#21: exiting
+2024/02/08 14:14:55 [notice] 22#22: gracefully shutting down
+2024/02/08 14:14:55 [notice] 22#22: exiting
+2024/02/08 14:14:55 [notice] 23#23: gracefully shutting down
+2024/02/08 14:14:55 [notice] 23#23: exiting
+2024/02/08 14:14:55 [notice] 20#20: gracefully shutting down
+2024/02/08 14:14:55 [notice] 20#20: exiting
+2024/02/08 14:14:55 [notice] 20#20: exit
+2024/02/08 14:14:55 [notice] 21#21: exit
+2024/02/08 14:14:55 [notice] 22#22: exit
+2024/02/08 14:14:55 [notice] 23#23: exit
+2024/02/08 14:14:55 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/02/08 14:14:55 [notice] 1#1: worker process 20 exited with code 0
+2024/02/08 14:14:55 [notice] 1#1: worker process 21 exited with code 0
+2024/02/08 14:14:55 [notice] 1#1: worker process 22 exited with code 0
+2024/02/08 14:14:55 [notice] 1#1: signal 29 (SIGIO) received
+2024/02/08 14:14:55 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/02/08 14:14:55 [notice] 1#1: worker process 23 exited with code 0
+2024/02/08 14:14:55 [notice] 1#1: exit
+2024/02/08 14:15:07 [notice] 1#1: using the "epoll" event method
+2024/02/08 14:15:07 [notice] 1#1: nginx/1.25.3
+2024/02/08 14:15:07 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/02/08 14:15:07 [notice] 1#1: OS: Linux 6.4.16-linuxkit
+2024/02/08 14:15:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/02/08 14:15:07 [notice] 1#1: start worker processes
+2024/02/08 14:15:07 [notice] 1#1: start worker process 19
+2024/02/08 14:15:07 [notice] 1#1: start worker process 20
+2024/02/08 14:15:07 [notice] 1#1: start worker process 21
+2024/02/08 14:15:07 [notice] 1#1: start worker process 22
+2024/02/08 14:18:26 [error] 20#20: *96 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/images/wordpress-logo.svg?ver=20131107 HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/images/wordpress-logo.svg?ver=20131107", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/css/login.min.css?ver=6.4.3"
+2024/02/08 14:18:28 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080", referrer: "http://localhost:8080/wp-login.php"
+2024/02/08 14:18:31 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:33 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:34 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:34 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:34 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:34 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:34 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:34 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:34 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:35 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:35 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:35 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:35 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:35 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:35 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:35 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:35 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:35 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:35 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:35 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:35 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:36 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:36 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:36 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:36 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:36 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:36 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:36 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:36 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:36 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:36 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:36 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:36 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:37 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:37 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:37 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:37 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:37 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:37 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:37 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:37 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:37 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:37 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:37 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:37 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:39 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:47 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:49 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:50 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:50 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:53 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:54 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:54 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:18:55 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:07 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:08 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:09 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:10 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:11 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:11 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:12 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:13 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:14 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:15 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:32 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:33 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:34 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:34 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:34 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:35 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:35 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:35 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:35 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:36 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:36 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:36 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:36 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:38 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:57 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:58 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:19:59 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:20:00 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:20:00 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:20:00 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:20:00 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:20:01 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:20:01 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:20:01 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:20:01 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:20:01 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:20:01 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:20:02 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:20:02 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:20:18 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080"
+2024/02/08 14:20:50 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/images/wordpress-logo.svg?ver=20131107 HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/images/wordpress-logo.svg?ver=20131107", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/css/login.min.css?ver=6.4.3"
+2024/02/08 14:20:52 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080", referrer: "http://localhost:8080/wp-login.php"
+2024/02/08 14:20:54 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080", referrer: "http://localhost:8080/wp-login.php"
+2024/02/08 14:20:54 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080", referrer: "http://localhost:8080/wp-login.php"
+2024/02/08 14:20:56 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080", referrer: "http://localhost:8080/wp-login.php"
+2024/02/08 14:20:57 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080", referrer: "http://localhost:8080/wp-login.php"
+2024/02/08 14:20:57 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080", referrer: "http://localhost:8080/wp-login.php"
+2024/02/08 14:20:57 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080", referrer: "http://localhost:8080/wp-login.php"
+2024/02/08 14:20:58 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080", referrer: "http://localhost:8080/wp-login.php"
+2024/02/08 14:21:11 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080", referrer: "http://localhost:8080/wp-login.php"
+2024/02/08 14:21:24 [error] 19#19: *85 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/ HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/", host: "localhost:8080", referrer: "http://localhost:8080/wp-login.php"
+2024/02/08 14:23:35 [error] 20#20: *266 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-admin/images/wordpress-logo.svg?ver=20131107 HTTP/1.1", upstream: "http://172.20.0.5:80/wp-admin/images/wordpress-logo.svg?ver=20131107", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/css/login.min.css?ver=6.4.3"
+2024/02/08 14:28:39 [error] 20#20: *310 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/acf-logo.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/acf-logo.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/edit.php?post_type=acf-field-group"
+2024/02/08 14:28:39 [error] 20#20: *296 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/wp-engine-horizontal-black.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/wp-engine-horizontal-black.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/edit.php?post_type=acf-field-group"
+2024/02/08 14:28:39 [error] 19#19: *307 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-taxonomies.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-taxonomies.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-global.css?ver=6.2.5"
+2024/02/08 14:28:39 [error] 19#19: *306 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-extended-menu.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-extended-menu.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-global.css?ver=6.2.5"
+2024/02/08 14:28:39 [error] 20#20: *310 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-field-groups.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-field-groups.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-global.css?ver=6.2.5"
+2024/02/08 14:28:39 [error] 19#19: *307 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-chevron-down.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-chevron-down.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-global.css?ver=6.2.5"
+2024/02/08 14:28:39 [error] 20#20: *296 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-post-type.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-post-type.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-global.css?ver=6.2.5"
+2024/02/08 14:28:39 [error] 20#20: *310 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-stars.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-stars.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-global.css?ver=6.2.5"
+2024/02/08 14:28:39 [error] 22#22: *309 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/wp-engine-horizontal-white.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/wp-engine-horizontal-white.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/edit.php?post_type=acf-field-group"
+2024/02/08 14:28:39 [error] 20#20: *310 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-chevron-down.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-chevron-down.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-global.css?ver=6.2.5"
+2024/02/08 14:28:39 [error] 22#22: *309 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-add.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-add.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-global.css?ver=6.2.5"
+2024/02/08 14:28:39 [error] 22#22: *308 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-key-solid.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-key-solid.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-global.css?ver=6.2.5"
+2024/02/08 14:28:39 [error] 22#22: *309 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/pro-upgrade-grid-bg.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/pro-upgrade-grid-bg.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-global.css?ver=6.2.5"
+2024/02/08 14:28:39 [error] 19#19: *307 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-clone.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-clone.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-global.css?ver=6.2.5"
+2024/02/08 14:28:39 [error] 22#22: *309 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/pro-upgrade-overlay.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/pro-upgrade-overlay.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-global.css?ver=6.2.5"
+2024/02/08 14:28:39 [error] 20#20: *310 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-flexible-content.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-flexible-content.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-global.css?ver=6.2.5"
+2024/02/08 14:28:39 [error] 19#19: *306 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-extended-menu.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-extended-menu.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-global.css?ver=6.2.5"
+2024/02/08 14:28:39 [error] 22#22: *308 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-arrow-up-right.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-arrow-up-right.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-global.css?ver=6.2.5"
+2024/02/08 14:28:39 [error] 20#20: *296 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-repeater.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-repeater.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-global.css?ver=6.2.5"
+2024/02/08 14:28:39 [error] 19#19: *307 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-settings.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-settings.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-global.css?ver=6.2.5"
+2024/02/08 14:28:39 [error] 22#22: *309 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-gallery.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-gallery.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-global.css?ver=6.2.5"
+2024/02/08 14:28:39 [error] 22#22: *309 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-alert-triangle.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-alert-triangle.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-global.css?ver=6.2.5"
+2024/02/08 14:28:41 [error] 20#20: *310 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/wp-engine-horizontal-black.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/wp-engine-horizontal-black.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/edit.php?post_type=acf-post-type"
+2024/02/08 14:28:41 [error] 22#22: *308 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/acf-logo.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/acf-logo.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/edit.php?post_type=acf-post-type"
+2024/02/08 14:28:41 [error] 20#20: *296 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/wp-engine-horizontal-white.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/wp-engine-horizontal-white.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/edit.php?post_type=acf-post-type"
+2024/02/08 14:28:41 [error] 22#22: *309 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /wp-content/plugins/advanced-custom-fields-pro/assets/images/empty-post-types.svg HTTP/1.1", upstream: "http://172.20.0.5:80/wp-content/plugins/advanced-custom-fields-pro/assets/images/empty-post-types.svg", host: "localhost:8080", referrer: "http://localhost:8080/wp-admin/edit.php?post_type=acf-post-type"
+2024/02/08 14:48:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/02/08 14:48:56 [notice] 22#22: gracefully shutting down
+2024/02/08 14:48:56 [notice] 21#21: gracefully shutting down
+2024/02/08 14:48:56 [notice] 19#19: gracefully shutting down
+2024/02/08 14:48:56 [notice] 20#20: gracefully shutting down
+2024/02/08 14:48:56 [notice] 19#19: exiting
+2024/02/08 14:48:56 [notice] 19#19: exit
+2024/02/08 14:48:56 [notice] 22#22: exiting
+2024/02/08 14:48:56 [notice] 21#21: exiting
+2024/02/08 14:48:56 [notice] 21#21: exit
+2024/02/08 14:48:56 [notice] 20#20: exiting
+2024/02/08 14:48:56 [notice] 20#20: exit
+2024/02/08 14:48:56 [notice] 22#22: exit
+2024/02/08 14:48:56 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/02/08 14:48:56 [notice] 1#1: worker process 20 exited with code 0
+2024/02/08 14:48:56 [notice] 1#1: worker process 19 exited with code 0
+2024/02/08 14:48:56 [notice] 1#1: worker process 21 exited with code 0
+2024/02/08 14:48:56 [notice] 1#1: worker process 22 exited with code 0
+2024/02/08 14:48:56 [notice] 1#1: exit
+2024/02/08 14:48:58 [notice] 1#1: using the "epoll" event method
+2024/02/08 14:48:58 [notice] 1#1: nginx/1.25.3
+2024/02/08 14:48:58 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/02/08 14:48:58 [notice] 1#1: OS: Linux 6.4.16-linuxkit
+2024/02/08 14:48:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/02/08 14:48:58 [notice] 1#1: start worker processes
+2024/02/08 14:48:58 [notice] 1#1: start worker process 20
+2024/02/08 14:48:58 [notice] 1#1: start worker process 21
+2024/02/08 14:48:58 [notice] 1#1: start worker process 22
+2024/02/08 14:48:58 [notice] 1#1: start worker process 23
+2024/02/08 15:09:19 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/02/08 15:09:19 [notice] 21#21: gracefully shutting down
+2024/02/08 15:09:19 [notice] 22#22: gracefully shutting down
+2024/02/08 15:09:19 [notice] 20#20: gracefully shutting down
+2024/02/08 15:09:19 [notice] 21#21: exiting
+2024/02/08 15:09:19 [notice] 23#23: gracefully shutting down
+2024/02/08 15:09:19 [notice] 22#22: exiting
+2024/02/08 15:09:19 [notice] 21#21: exit
+2024/02/08 15:09:19 [notice] 22#22: exit
+2024/02/08 15:09:19 [notice] 23#23: exiting
+2024/02/08 15:09:19 [notice] 23#23: exit
+2024/02/08 15:09:19 [notice] 20#20: exiting
+2024/02/08 15:09:19 [notice] 20#20: exit
+2024/02/08 15:09:19 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/02/08 15:09:19 [notice] 1#1: worker process 20 exited with code 0
+2024/02/08 15:09:19 [notice] 1#1: signal 29 (SIGIO) received
+2024/02/08 15:09:19 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/02/08 15:09:19 [notice] 1#1: worker process 21 exited with code 0
+2024/02/08 15:09:19 [notice] 1#1: worker process 22 exited with code 0
+2024/02/08 15:09:19 [notice] 1#1: worker process 23 exited with code 0
+2024/02/08 15:09:19 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/02/08 15:09:19 [notice] 1#1: exit
+2024/02/08 15:09:20 [notice] 1#1: using the "epoll" event method
+2024/02/08 15:09:20 [notice] 1#1: nginx/1.25.3
+2024/02/08 15:09:20 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/02/08 15:09:20 [notice] 1#1: OS: Linux 6.4.16-linuxkit
+2024/02/08 15:09:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/02/08 15:09:20 [notice] 1#1: start worker processes
+2024/02/08 15:09:20 [notice] 1#1: start worker process 20
+2024/02/08 15:09:20 [notice] 1#1: start worker process 21
+2024/02/08 15:09:20 [notice] 1#1: start worker process 22
+2024/02/08 15:09:20 [notice] 1#1: start worker process 23
