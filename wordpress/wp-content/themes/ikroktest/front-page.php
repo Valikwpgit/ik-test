@@ -14,7 +14,7 @@
                     <h1>Development: Enhancing Code Quality</h1>
                     <div class="slider">
                         <div class="slider-slide flex align-items-center justify-content-center">
-                            <div class="slider-slide-block block-1">
+                            <div class="slider-slide-block overflow-auto" style="width: 49.2em;">
                                 <h2>Code Documentation</h2>
                                 <div class="slider-slide-block-item flex">
                                     <div class="slider-slide-block-item-left flex align-items-center justify-content-center">
@@ -40,9 +40,9 @@
                                 </div>
                             </div>
                             <div class="slider-slide-img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img1.jpg" alt="" />
+                                <img style="width: 8.319em;" src="<?php echo get_template_directory_uri(); ?>/assets/images/img1.jpg" alt="" />
                             </div>
-                            <div class="slider-slide-block">
+                            <div class="slider-slide-block overflow-auto" style="width: 85.425em;">
                                 <h2>Optimization and Refactoring of the Code Fragments</h2>
                                 <div class="slider-slide-block-item flex">
                                     <div class="slider-slide-block-item-left flex align-items-center justify-content-center">

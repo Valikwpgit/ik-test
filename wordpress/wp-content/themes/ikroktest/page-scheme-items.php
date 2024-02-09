@@ -14,7 +14,7 @@
                     <h1>QA: Test Management and Automation</h1>
                     <div class="slider">
                         <div class="slider-slide flex align-items-center justify-content-center">
-                            <div class="slider-slide-block block-1">
+                            <div class="slider-slide-block">
                                 <h2>Checklist Сreation</h2>
                                 <div class="slider-slide-block-item flex">
                                     <div class="slider-slide-block-item-left flex align-items-center justify-content-center">
@@ -58,14 +58,14 @@
                                 </div>
                             </div>
 
-                            <div class="slider-slide-block" style="width: 26.088em;">
+                            <div class="slider-slide-block">
                                 <h2>AI Tools Allow Manual Testers to Create & Run Automated Tests</h2>
 
                                 <div class="slider-slide-wrap flex">
-                                <div class="slider-slide-img flex align-items-center" style="width: 49.219em;">
+                                <div class="slider-slide-img flex align-items-center" style="width: 13.9215em;">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/img2.png" alt="" />
                                 </div>
-                                    <div class="slider-slide-wrap-item flex flex-direction-column">
+                                    <div class="slider-slide-wrap-item flex flex-direction-column overflow-auto" style="width: 10.1865em;">
                                 <div class="slider-slide-block-item flex flex-grow-1">
 
                                     <div class="slider-slide-block-item-left flex align-items-center justify-content-center">

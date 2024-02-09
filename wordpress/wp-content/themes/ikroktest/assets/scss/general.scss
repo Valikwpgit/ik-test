@@ -90,4 +90,10 @@ h1 {
   .flex-grow-1 {
   flex-grow: 1;
 }
+  .overflow {
+    &-auto {
+      overflow: auto;
+    }
+  }
+
 }

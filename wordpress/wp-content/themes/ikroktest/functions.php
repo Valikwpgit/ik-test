@@ -69,6 +69,58 @@ function enqueue_acf_inline_script() {
             };
 
             acf.addAction('append_field/key=field_65c4d85fcaf70', myCallback);
+
+
+
+            $('.acf-field .acf-field-65c5119116ca4 img').on('load', function() {
+
+                const repeaterRow = $(this).closest('.acf-row');
+                const imageWidth = $(this).width();
+                const imageWidthEm = (imageWidth/<?php echo BASE_FONT_SIZE; ?>).toFixed(4);
+
+                repeaterRow.find('.acf-field-65c5119116ca5.acf-field-range input').val(imageWidthEm);
+
+            });
+            var myCallback2 = function( field ){
+                $('.acf-field .acf-field-65c5119116ca4 img').on('load', function() {
+
+                    const repeaterRow = $(this).closest('.acf-row');
+                    const imageWidth = $(this).width();
+                    const imageWidthEm = (imageWidth/<?php echo BASE_FONT_SIZE; ?>).toFixed(4);
+
+                    repeaterRow.find('.acf-field-65c5119116ca5.acf-field-range input').val(imageWidthEm);
+
+                });
+            };
+
+            acf.addAction('append_field/key=field_65c5119116ca4', myCallback2);
+
+
+
+
+
+            $('.acf-field .acf-field-65c50f037590c img').on('load', function() {
+
+                const repeaterRow = $(this).closest('.acf-fields');
+                const imageWidth = $(this).width();
+                const imageWidthEm = (imageWidth/<?php echo BASE_FONT_SIZE; ?>).toFixed(4);
+
+                repeaterRow.find('.acf-field-range.acf-field-65c50f44b7346 input').val(imageWidthEm);
+
+            });
+            var myCallback3 = function( field ){
+                $('.acf-field .acf-field-65c50f037590c img').on('load', function() {
+
+                    const repeaterRow = $(this).closest('.acf-fields');
+                    const imageWidth = $(this).width();
+                    const imageWidthEm = (imageWidth/<?php echo BASE_FONT_SIZE; ?>).toFixed(4);
+
+                    repeaterRow.find('.acf-field-range.acf-field-65c50f44b7346 input').val(imageWidthEm);
+
+                });
+            };
+
+            acf.addAction('append_field/key=field_65c50f037590c', myCallback3);
         });
     </script>
     <?php

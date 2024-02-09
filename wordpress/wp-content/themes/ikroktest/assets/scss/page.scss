@@ -51,7 +51,7 @@
       flex-direction: row;
       justify-content: space-between;
       width: 100%;
-      max-height: 15.2em;
+      max-height: 15.3em;
       overflow: hidden;
       flex: 1;
       margin-top: 0.5088em;
@@ -59,11 +59,7 @@
       &-slide {
         width: 100%;
 
-        .block-1 {
-          align-items: flex-start;
-          justify-content: flex-start;
-          width: 24.433em;
-        }
+
 
         &-block {
           display: flex;
@@ -132,8 +128,8 @@
 
         &-img {
           margin-right: 0.6791em;
-          margin-left: 0.6791em;
-          width: 14.6em;
+
+
 
           img {
             width: 100%;
