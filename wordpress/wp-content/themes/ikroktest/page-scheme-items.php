@@ -34,7 +34,7 @@ $block3Image = get_field('block_3_image');
                                 <h2><?php echo $block1['title']; ?></h2>
                                 <?php if ($block3Image['position'] !== 'in_first') { ?>
 
-                                    <?php foreach ($block1['items'] as $item) { ?>
+                                    <?php if($block1['items']) { foreach ($block1['items'] as $item) { ?>
 
                                         <div class="slider-slide-block-item flex">
                                             <?php if ($item['image']) { ?>
@@ -62,7 +62,7 @@ $block3Image = get_field('block_3_image');
                                                 <?php } ?>
                                             </div>
                                         </div>
-                                    <?php } ?>
+                                    <?php } } ?>
                                 <?php } else { ?>
                                     <div class="slider-slide-wrap flex">
                                         <?php if ($block3Image['image']) { ?>
