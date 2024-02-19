@@ -10461,6 +10461,86 @@ body {
     font-size: calc(23.5608px - 189.32956px);
   }
 }
+@media screen and (max-width: 474px) {
+  body {
+    font-size: 7.5px;
+  }
+}
+@media screen and (max-width: 464px) {
+  body {
+    font-size: 7.35px;
+  }
+}
+@media screen and (max-width: 454px) {
+  body {
+    font-size: 7.2px;
+  }
+}
+@media screen and (max-width: 444px) {
+  body {
+    font-size: 7.05px;
+  }
+}
+@media screen and (max-width: 434px) {
+  body {
+    font-size: 6.9px;
+  }
+}
+@media screen and (max-width: 424px) {
+  body {
+    font-size: 6.75px;
+  }
+}
+@media screen and (max-width: 414px) {
+  body {
+    font-size: 6.6px;
+  }
+}
+@media screen and (max-width: 404px) {
+  body {
+    font-size: 6.45px;
+  }
+}
+@media screen and (max-width: 394px) {
+  body {
+    font-size: 6.3px;
+  }
+}
+@media screen and (max-width: 384px) {
+  body {
+    font-size: 6.15px;
+  }
+}
+@media screen and (max-width: 374px) {
+  body {
+    font-size: 6px;
+  }
+}
+@media screen and (max-width: 364px) {
+  body {
+    font-size: 5.85px;
+  }
+}
+@media screen and (max-width: 354px) {
+  body {
+    font-size: 5.7px;
+  }
+}
+@media screen and (max-width: 344px) {
+  body {
+    font-size: 5.55px;
+  }
+}
+@media screen and (max-width: 334px) {
+  body {
+    font-size: 5.4px;
+  }
+}
+@media screen and (max-width: 324px) {
+  body {
+    font-size: 5.25px;
+  }
+}
 @media screen and (max-height: 670px) {
   body {
     font-size: calc(18.5608px - 0px) !important;

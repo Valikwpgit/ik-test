@@ -2,7 +2,7 @@
 <html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=1280, initial-scale=0.01">
     <meta name="theme-color" content="#AF92D39">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="profile" href="https://gmpg.org/xfn/11">

@@ -1,0 +1,27 @@
+_docker/nginx/log/
+
+# Ignore WordPress core files
+#wp-admin/
+#wp-includes/
+
+# Ignore WordPress application files
+#wp-config.php
+#wp-content/uploads/
+#wp-content/upgrade/
+#wp-content/backup-db/
+#wp-content/cache/
+#wp-content/advanced-cache.php
+#wp-content/backup-db/
+#wp-content/backup-migration/
+#wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/wp-cache-config.php
+
+# Ignore WordPress specific files
+*.log
+#.htaccess
+license.txt
+readme.html
+wp-*.php
+xmlrpc.php

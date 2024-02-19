@@ -25,6 +25,14 @@ body {
 
     }
   }
+  @for $i from 0 through 15 {
+    $screen-width: 474 - $i * 10;
+    $font-size: 7.5 - ($i * 0.15);
+
+    @media screen and (max-width: #{$screen-width}px) {
+      font-size: #{$font-size}px;
+    }
+  }
   @for $i from 300 through 670 {
     $screen-height: 670 - ($i - 300) * 10;
     @media screen and (max-height: #{$screen-height}px) {
