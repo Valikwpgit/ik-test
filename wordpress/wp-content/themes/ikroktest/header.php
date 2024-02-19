@@ -54,7 +54,6 @@
 
             let fontSize;
 
-            console.log(aspectRatio);
             if(screenHeight > 700) {
             if (aspectRatio > 2) {
                 fontSize = screenHeight * 0.0311192;
