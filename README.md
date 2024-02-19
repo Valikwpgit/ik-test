@@ -3,10 +3,9 @@
 
 ### Instructions:
 
-1. Clone the site from Git.
-2. Unzip the archive file `dump.zip` (In the root folder of the website.).
-3. Upload the file with the `.wpress` extension using the All-in-One WP Migration plugin.
-4. Update the permalinks.
+1. Unzip the archive file `dump.zip` (In the root folder of the website. Don't need to clone the entire website from Git).
+2. Upload the file with the `.wpress` extension using the All-in-One WP Migration plugin.
+3. Update the permalinks.
 
 ## Deploying a Website using docker (I make no guarantee that it will work. For local deployment only!)
 
@@ -22,7 +21,9 @@
 3. Open the local link in the browser: http://localhost:8080/.
 
 ## Access to the WordPress admin panel.
+Link to admin page: https://iktest.lit.studio/wp-admin/
 Login: `admintest`
+
 Password: `wZ6}4;u4yf%Vmt9`
 
 ## Links
