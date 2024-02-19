@@ -39,6 +39,36 @@
           content="<?php echo get_template_directory_uri(); ?>/assets/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+
+    <script>
+
+        function updateFontSize() {
+
+            const screenWidth = window.innerWidth;
+            const screenHeight = window.innerHeight;
+
+            const baseFontSize = 23.5608;
+
+
+            const aspectRatio = screenWidth / screenHeight;
+
+            let fontSize;
+
+            console.log(aspectRatio);
+            if(screenHeight > 700) {
+            if (aspectRatio > 2) {
+                fontSize = screenHeight * 0.0311192;
+            } else {
+
+            }
+
+            document.body.style.fontSize = `${fontSize}px`;
+            }
+        }
+
+        window.addEventListener('load', updateFontSize);
+        window.addEventListener('resize', updateFontSize);
+    </script>
     <?php wp_head(); ?>
 </head>
 
